@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let db = Firestore.firestore()
         // Override point for customization after application launch.
         print(db) // silence warning
-
         return true
     }
 

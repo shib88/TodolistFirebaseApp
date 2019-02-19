@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		08FE295AC7CFA2EB45231523 /* Pods_TodolistFirebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6195C5931B5D289BDC5F4D /* Pods_TodolistFirebaseApp.framework */; };
 		99ECEE8C2215576E0054369F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECEE8B2215576E0054369F /* AppDelegate.swift */; };
-		99ECEE8E2215576E0054369F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECEE8D2215576E0054369F /* ViewController.swift */; };
+		99ECEE8E2215576E0054369F /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ECEE8D2215576E0054369F /* TodoListViewController.swift */; };
 		99ECEE912215576E0054369F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ECEE8F2215576E0054369F /* Main.storyboard */; };
 		99ECEE93221557750054369F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99ECEE92221557750054369F /* Assets.xcassets */; };
 		99ECEE96221557750054369F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ECEE94221557750054369F /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		8C6195C5931B5D289BDC5F4D /* Pods_TodolistFirebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodolistFirebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ECEE882215576E0054369F /* TodolistFirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodolistFirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ECEE8B2215576E0054369F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99ECEE8D2215576E0054369F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99ECEE8D2215576E0054369F /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		99ECEE902215576E0054369F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99ECEE92221557750054369F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99ECEE95221557750054369F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,6 @@
 				46F3182057338C09A066F64B /* Pods-TodolistFirebaseApp.debug.xcconfig */,
 				515CEBBC55EC9D9F57975149 /* Pods-TodolistFirebaseApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				99ECEE8B2215576E0054369F /* AppDelegate.swift */,
-				99ECEE8D2215576E0054369F /* ViewController.swift */,
+				99ECEE8D2215576E0054369F /* TodoListViewController.swift */,
 				99ECEE8F2215576E0054369F /* Main.storyboard */,
 				99ECEE92221557750054369F /* Assets.xcassets */,
 				99ECEE9D2215772C0054369F /* GoogleService-Info.plist */,
@@ -225,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99ECEE8E2215576E0054369F /* ViewController.swift in Sources */,
+				99ECEE8E2215576E0054369F /* TodoListViewController.swift in Sources */,
 				99ECEE8C2215576E0054369F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
